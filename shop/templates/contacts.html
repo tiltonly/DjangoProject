@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Contacts
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <img class="img-fluid"  width="1920" height="1080" src="{% static 'images/carback3.jpg' %}">
+    </div>
+</div>
+    <div class="row col-10 mx-auto col-md-6 my-3">
+		<div class="col-10 mx-auto col-md-6 my-3">
+			<p class="product_desc font-weight-bold">Our contacts</p>
+			<p class="text-justify product_text">E-mail: AutoPartsShop@gmail.com</p>
+			<p class="text-justify product_text">Phone number: 8-888-888-88-88</p>
+		</div>
+		<div class="col-10 mx-auto col-md-6 my-3">
+			 <p class="product_desc font-weight-bold">Work time</p>
+			 <p class="text-justify product_text">Monday: 9:00 - 23:00</p>
+			 <p class="text-justify product_text">Tuesday: 9:00 - 23:00</p>
+			 <p class="text-justify product_text">Wednesday: 9:00 - 23:00</p>
+			 <p class="text-justify product_text">Thursday: 9:00 - 23:00</p>
+			 <p class="text-justify product_text">Friday: 9:00 - 23:00</p>
+			 <p class="text-justify product_text">Saturday: 10:00 - 22:00</p>
+			 <p class="text-justify product_text">Sunday: day off</p>
+		</div>
+	</div>
+{% endblock %}
